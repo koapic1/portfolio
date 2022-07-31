@@ -1,0 +1,109 @@
+@import "vars";
+@import "mixins";
+
+#intro {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    .video {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        // &::before {
+        //     content: "";
+        //     display: block;
+        //     padding-top: 56.25%;
+        // }
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .typing {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 64px;
+        font-weight: 100;
+        z-index: 2;
+        text-transform: uppercase;
+        //@include longShadow(#111, right, 600);
+        strong {
+            font-weight: 700;
+        }
+    }
+    .icon {
+        position: absolute;
+        bottom: 100px;
+        right: 50%;
+        transform: translateX(50%);
+        width: 200px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+        z-index: 2;
+        text-transform: uppercase;
+        //@include longShadow(#111, right, 600);
+        a {
+            padding: 10px 20px;
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid $white-color;
+            transition: 0.25s ease;
+            border-radius: 100px;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            strong {
+                font-weight: 900;
+            }
+            &:hover {
+                color: $text-color;
+                background-color: $white-color;
+            }
+        }
+    }
+}
+.cursor {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    border-radius: 100px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    //display: none;
+}

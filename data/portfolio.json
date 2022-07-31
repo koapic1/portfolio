@@ -1,0 +1,104 @@
+{
+    "imageFolder": "../images/",
+    "portfolioList": [
+        {
+            "img": "github.png",
+            "title": "Github",
+            "desc": "Github",
+            "skill": "html / scss / JavaScript / node.js / JAVA / SPRING",
+            "period": "ing",
+            "category": "sketch",
+            "link": "https://github.com/koapic1"
+        },
+        {
+            "img": "movie.png",
+            "title": "Movie",
+            "desc": "React를 이용한 TMDB 영화 검색 페이지",
+            "skill": "html / scss / JavaScript / React",
+            "period": "3Day",
+            "category": "toyproject",
+            "link": "http://klowon1.dothome.co.kr/movie/"
+        },
+        {
+            "img": "DKG.png",
+            "title": "DKG clone coding",
+            "desc": "full page를 이용한 부동산 전문회사 Landing page 제작",
+            "skill": "html / css / jQuery / fullpage js / gsap",
+            "period": "1weeks",
+            "category": "web",
+            "link": "https://koapic1.github.io/DKG/html/index.html"
+        },
+        {
+            "img": "hitop.png",
+            "title": "hitop clone coding",
+            "desc": "pc / mobile 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
+            "skill": "html / css / jQuery /adpative web / gsap / php",
+            "period": "2weeks",
+            "category": "web",
+            "link": "http://klowon1.dothome.co.kr/hitop/"
+        },
+        {
+            "img": "neoforet.png",
+            "title": "neoforet clone coding",
+            "desc": "pc / mobile 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
+            "skill": "html / css / jQuery /adpative web / gsap / php",
+            "period": "1weeks",
+            "category": "web",
+            "link": "http://klowon1.dothome.co.kr/neoforet/"
+        },
+        {
+            "img": "famoussaying.png",
+            "title": "famous saying",
+            "desc": "perspective 큐브효과 를 이용한 명언 보여주기",
+            "skill": "html / scss / jQuery / gsap",
+            "period": "1 day",
+            "category": "toyproject",
+            "link": "https://koapic1.github.io/cube/html/index.html"
+        },
+        {
+            "img": "supermario.png",
+            "title": "supermario",
+            "desc": "swiper js와 ajax를 이용한 이미지 갤러리",
+            "skill": "html / scss / jQuery / ajax / swiper / gsap",
+            "period": "1 day",
+            "category": "toyproject",
+            "link": "https://koapic1.github.io/Super-Mario/html/index.html"
+        },
+        {
+            "img": "supermario3d.png",
+            "title": "supermario 3D",
+            "desc": "ajax와 jQuery를 이용한 마우스 이벤트 이미지 갤러리",
+            "skill": "html / scss / jQuery / ajax / swiper / gsap",
+            "period": "1 day",
+            "category": "toyproject",
+            "link": "https://koapic1.github.io/mario3D/html/index.html"
+        },
+        {
+            "img": "clock gallery.png",
+            "title": "clockgallery",
+            "desc": "ajax를 이용한 json 데이터 뿌리기와 클릭시 gsap 효과를 적용한 이미지 갤러리",
+            "skill": "html / scss / jQuery / ajax / gsap",
+            "period": "1 day",
+            "category": "toyproject",
+            "link": "https://koapic1.github.io/clock-gallery/html/index.html"
+        },
+        {
+            "img": "typography.png",
+            "title": "TYPO GRAPHY",
+            "desc": "ajax를 이용한 json 데이터 뿌리기와 isotope 활용한 핀터레스트 스타일의 타이포 그라피",
+            "skill": "html / scss / jQuery / ajax / gsap / isotope",
+            "period": "1 day",
+            "category": "toyproject",
+            "link": "https://koapic1.github.io/finterest/html/index.html"
+        },
+        {
+            "img": "tsa.png",
+            "title": "TSA",
+            "desc": "",
+            "skill": "html / css / jQuery / fullpage js / gsap",
+            "period": "web",
+            "category": "gsap 와 scrollTrigger를 활용한 web page 제작",
+            "link": "https://koapic1.github.io/TSA/html/index.html"
+        }
+    ]
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <meta name="viewport" content="width=1920px, initial-scale=1.0" /> -->
+        <title>one portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=PT+Serif:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/common.css" />
+        <link rel="stylesheet" href="../css/splitting.css" />
+        <link rel="stylesheet" href="../css/swiper-bundle.css" />
+        <link rel="stylesheet" href="../css/fullpage.css" />
+        <link rel="stylesheet" href="../css/fancybox.css" />
+        <link rel="stylesheet" href="../css/main.css" />
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/js.cookie.min.js"></script>
+        <script src="../js/splitting.min.js"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/gsap/gsap.min.js"></script>
+        <script src="../js/gsap/CSSRulePlugin.min.js"></script>
+        <script src="../js/gsap/ScrollTrigger.min.js"></script>
+        <script src="../js/fullpage.min.js"></script>
+        <script src="../js/fullpage.extensions.min.js"></script>
+        <script src="../js/axios.min.js"></script>
+        <script src="../js/particles.min.js"></script>
+        <script src="../js/isotope.pkgd.min.js"></script>
+        <script src="../js/imagesloaded.pkgd.min.js"></script>
+        <script src="../js/fancybox.umd.js"></script>
+        <script src="../js/typed.min.js"></script>
+        <script src="../js/main.js" defer></script>
+    </head>
+    <body>
+        <header id="header"></header>
+        <main id="main">
+            <div id="intro" class="section">
+                <div class="slogan">
+                    <h1 data-splitting>Only ONE</h1>
+                    <p data-splitting>
+                        I Grow is our Grow ! <br />I am a Developer. <br />
+                        It has Infinity Growth Potential<br />
+                        <strong>ONE!</strong> <br />
+                    </p>
+                </div>
+                <div class="iconScroll">
+                    <span class="icon"></span>
+                    <span class="txt">scroll</span>
+                </div>
+                <video src="../video/circle_-_100470 (Original).mp4" muted autoplay loop data-keepplaying></video>
+            </div>
+            <!-- intro end -->
+            <div class="contentsWrap">
+                <div id="profile" class="section wrap" data-splitting>
+                    <div class="album">
+                        <ul class="swiper-wrapper">
+                            <li class="img01 swiper-slide"></li>
+                            <li class="img02 swiper-slide"></li>
+                            <li class="img03 swiper-slide"></li>
+                            <li class="img04 swiper-slide"></li>
+                            <li class="img05 swiper-slide"></li>
+                        </ul>
+                        <div class="pagination"></div>
+                    </div>
+                    <div class="info">
+                        <h2>PROFILE</h2>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>Name <span class="seperation">:</span></dt>
+                                    <dd>김원</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Birth <span class="seperation bir"> :</span></dt>
+                                    <dd>1990.02.16</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Motto<span class="seperation">:</span></dt>
+                                    <dd>Let's be strong</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>E-mail<span class="seperation">:</span></dt>
+                                    <dd>koapic1@gmail.com</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Phone<span class="seperation">:</span></dt>
+                                    <dd>010-6872-0281</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Career<span class="seperation">:</span></dt>
+                                    <dd>
+                                        21.10~22.04 TIS정보기술교육학원 <br />
+                                        JAVA 기반 웹 개발자 양성과정 수료
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Github<span class="seperation">:</span></dt>
+                                    <dd><a href="https://github.com/koapic1" target="_blank">http//github.com/koapic1</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- profile end -->
+                <div id="skill" class="section wrap" data-splitting>
+                    <h2>SKILL</h2>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>MARKUP</dt>
+                                <dd><span class="num" data-percent="80">80</span><span class="unit">%</span></dd>
+                            </dl>
+                            <div class="round">
+                                <svg class="line">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                                <svg class="bg">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>CSS/SCSS</dt>
+                                <dd><span class="num" data-percent="80">80</span><span class="unit">%</span></dd>
+                            </dl>
+                            <div class="round">
+                                <svg class="line">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                                <svg class="bg">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>JAVSCRIPT</dt>
+                                <dd><span class="num" data-percent="60">60</span><span class="unit">%</span></dd>
+                            </dl>
+                            <div class="round">
+                                <svg class="line">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                                <svg class="bg">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>REACT</dt>
+                                <dd><span class="num" data-percent="50">50</span><span class="unit">%</span></dd>
+                            </dl>
+                            <div class="round">
+                                <svg class="line">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                                <svg class="bg">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>NODE JS</dt>
+                                <dd><span class="num" data-percent="50">50</span><span class="unit">%</span></dd>
+                            </dl>
+                            <div class="round">
+                                <svg class="line">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                                <svg class="bg">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>JAVA</dt>
+                                <dd><span class="num" data-percent="50">50</span><span class="unit">%</span></dd>
+                            </dl>
+                            <div class="round">
+                                <svg class="line">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                                <svg class="bg">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>SPRING</dt>
+                                <dd><span class="num" data-percent="50">50</span><span class="unit">%</span></dd>
+                            </dl>
+                            <div class="round">
+                                <svg class="line">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                                <svg class="bg">
+                                    <circle cx="100" cy="100" r="90"></circle>
+                                </svg>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- skill end -->
+                <div id="portfolio" class="section wrap" data-splitting>
+                    <h2>PORTFOLIO</h2>
+                    <div class="contents">
+                        <main id="main">
+                            <nav id="filter">
+                                <ul>
+                                    <li class="on" data-filter="item">ALL</li>
+                                    <li data-filter="web">WEB</li>
+                                    <li data-filter="toyproject">TOYPROJECT</li>
+                                    <li data-filter="sketch">SKETCH</li>
+                                </ul>
+                            </nav>
+                            <div id="works">
+                                <ul class="itemList">
+                                    <li class="item category">
+                                        <a href="title">
+                                            <div class="img">
+                                                <img src="" alt="" />
+                                            </div>
+                                            <div class="info">
+                                                <h2></h2>
+                                                <p class="desc"></p>
+                                                <p class="point">
+                                                    <span></span>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+                <div class="cursor">
+                    <span class="txt"></span>
+                </div>
+            </div>
+        </main>
+        <footer id="footer"></footer>
+        <aside id="popup">
+            <div class="contents">
+                <img src="../images/popup.png" alt="" />
+                <div class="alertTxt">
+                    <p>개인 포트폴리오용으로 만든 사이트입니다.</p>
+                    <p>이미지의 저작권은 저에게 없습니다.</p>
+                </div>
+            </div>
+            <div class="btns">
+                <button class="oneday">오늘 하루 이 창을 열지 않기</button>
+                <button class="close">닫기</button>
+            </div>
+        </aside>
+    </body>
+</html>
